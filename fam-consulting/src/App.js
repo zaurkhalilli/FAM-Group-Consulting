@@ -1,12 +1,22 @@
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
+import Layout from "./Layout/Layout";
+import Home from "./Pages/Home";
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      
-      </header>
+    <div>
+      <BrowserRouter basename="/FAM-Group-Audit">
+        <ScrollToTop />
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            
+          </Routes>
+        </Layout>
+      </BrowserRouter>
     </div>
   );
 }
