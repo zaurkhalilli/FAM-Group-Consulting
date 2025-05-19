@@ -6,6 +6,10 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FiInstagram } from "react-icons/fi";
 import { FaYoutube } from "react-icons/fa";
+import { BsClock } from "react-icons/bs";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -41,24 +45,53 @@ const Navbar = () => {
               </div>
             </div>
              <div className="col-xl-3">
+                <div className="navinfo">
+                    <div className="infoleft">
+                        <BsClock size={40} color='#285da1' /> 
+                    </div>
+                    <div className="inforight">
+                         <h5>İş Saatları</h5>
+                         <p>  09:30 - 18:00   
+                        <br />
+                        Bazar Ertəsi - Cümə</p>
+                    </div>
+                </div>
+            </div>
+             <div className="col-xl-3">
               <div className="logo">
-                <Link to="/">
-                  <img src="https://www.famgroupconsulting.az/assets/images/logo.png" alt="FAM-Group-Consulting-Logo" />
-                </Link>
+               <div className="navinfo">
+                 <div className="infoleft">
+                      <MdOutlinePhoneInTalk size={35} color='#285da1'/>
+                    </div>
+                    <div className="inforight">
+                         <h5>Əlaqə</h5>
+                         <p>   Mob.: (+994 50) 278-72-98 
+                        <br />
+                        Mob.: (+994 50) 278-71-88
+                        <br />
+                         Email: office@famgroupconsulting.az
+                        </p>
+                    </div>
+                </div>
               </div>
             </div>
              <div className="col-xl-3">
               <div className="logo">
-                <Link to="/">
-                  <img src="https://www.famgroupconsulting.az/assets/images/logo.png" alt="FAM-Group-Consulting-Logo" />
-                </Link>
-              </div>
-            </div>
-             <div className="col-xl-3">
-              <div className="logo">
-                <Link to="/">
-                  <img src="https://www.famgroupconsulting.az/assets/images/logo.png" alt="FAM-Group-Consulting-Logo" />
-                </Link>
+               <div className="navinfo">
+                 <div className="infoleft">
+                    <CiLocationOn size={40} color='#285da1'/>
+                 </div>
+                 <div className="inforight">
+                    <h5>Gəncə Ofisi</h5>
+                         <p>    Şah İsmayıl Xətai prospekti, 93.
+                        <br />
+                        Mob.: (+994 50) 278-71-88
+                        <br />
+                        Aura Park AVM, 4-cü mərtəbə,
+                        <br /> Ofis 405.
+                        </p>
+                </div>
+                    </div>
               </div>
             </div>
             <div className="col-xl-10">
