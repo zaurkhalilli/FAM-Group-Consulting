@@ -8,7 +8,7 @@ import Home from "./Pages/Home";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/FAM-Group-Audit">
+      <BrowserRouter>
         <ScrollToTop />
         <Layout>
           <Routes>

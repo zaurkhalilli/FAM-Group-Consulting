@@ -1,0 +1,27 @@
+#footer{
+    padding-top: 40px;
+    img{
+        padding: 50px;
+    }
+    .footerright{
+        float: right;
+        h4{
+            text-align: center;
+            color: #004460;
+            font-size: 1.6rem;
+        }
+        p{
+            max-width: 500px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            color: #004460;;
+        }
+    }
+    .copyright{
+        text-align: center;
+        color: #004460;
+        font-size: 1.1rem;
+        font-weight: 540;
+        padding-top: 20px;
+    }
+}
