@@ -20,6 +20,13 @@ const Footer = () => {
                 Mob.: (+994 50) 289-28-28
                 <br />
                 Mob.: (+994 50) 278-71-87
+                <br />
+                - Gəncə Ofisi
+                <br />
+                Şah İsmayıl Xətai prospekti, 93.
+                Mob.: (+994 50) 278-71-88
+                Aura Park AVM, 4-cü mərtəbə,
+                Ofis 405.
             </p>
           </div>
           </div>
@@ -28,7 +35,7 @@ const Footer = () => {
       <div className="copyright">
         <span> © 2025
         <br />
-        FAM Group Audit. Bütün hüquqlar qorunur.</span>
+        FAM Group Consulting. Bütün hüquqlar qorunur.</span>
       </div>
     </div>
   )

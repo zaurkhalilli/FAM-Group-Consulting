@@ -94,10 +94,16 @@ const Navbar = () => {
                     </div>
               </div>
             </div>
-            <div className="col-xl-10">
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
               <div className="container">
-                <div className="row">
-                  <div className="col-xl-2"><div className="link"><Link to="/">ANA SƏHİFƏ</Link></div></div>
+                <div className="row  navtxt">
+                   <div className="col-xl-2">
+                  <div className="link"><Link to="/">ANA SƏHİFƏ</Link></div>
+                  </div>
                   <div className="col-xl-2">
                     <div className="nav-drop nav-drop2">
                       <div className="link">
@@ -125,9 +131,9 @@ const Navbar = () => {
                     </div>
                   </div>
                   <div className="col-xl-2"><div className="link"><Link to="/lisenziyalar">LİSENZİYALAR</Link></div></div>
-                  <div className="col-xl-2"><div className="link"><Link to="/karyera">KARYERA</Link></div></div>
+                  <div className="col-xl-2"><div className="link"><Link to="/karyera">MÜŞTƏRİLƏR</Link></div></div>
                   <div className="col-xl-2"><div className="link"><Link to="/elaqe">ƏLAQƏ</Link></div></div>
-                </div>
+                   </div>
               </div>
             </div>
           </div>
