@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Slider.scss';
-
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import Slider1 from '../HomeSlider/slider1.png'
 const slides = [
   {
-    image: '/images/sekil1.jpg',
-    title: 'Yazı 1',
-    text: 'Buraya mətn əlavə edə bilərsiniz',
+    image: '/HomeSlider/slider1.png',
+    title: 'FAM Group Consulting',
+    text: 'Dünya standartlarına cavab verən işlər üçün müraciət edin!',
   },
   {
     image: '/images/sekil2.jpg',
@@ -25,9 +26,17 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
-    }, 3000);
+    }, 7000);
     return () => clearInterval(interval);
   }, []);
+
+  const goToPrev = () => {
+    setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
+  const goToNext = () => {
+    setCurrent((prev) => (prev + 1) % slides.length);
+  };
 
   return (
     <div className="slider">
@@ -50,6 +59,13 @@ const Slider = () => {
           </div>
         ))}
       </div>
+
+      <button className="nav-button left" onClick={goToPrev}>
+        <FaChevronLeft />
+      </button>
+      <button className="nav-button right" onClick={goToNext}>
+        <FaChevronRight />
+      </button>
     </div>
   );
 };
