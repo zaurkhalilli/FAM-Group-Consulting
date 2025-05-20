@@ -121,11 +121,12 @@ const Navbar = () => {
                       <div className="nav-drop nav-drop2">
                         <Link to="/services">XİDMƏTLƏR</Link>
                         <div className="nav__dropdown">
-                          <Link to="/firstservice">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
-                          <Link to="/secondservice">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
-                          <Link to="/thirdservice">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
-                          <Link to="/fourthservice">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
-                          <Link to="/fifthservice">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
+                          <Link to="/firstservice">İqtisadi hüquq məsləhətləri</Link>
+                          <Link to="/secondservice">Kadr uçotu üzrə məsləhət xidmətləri</Link>
+                          <Link to="/thirdservice">Gömrük əməliyyatları ilə əlaqədar məsləhət xidmətləri</Link>
+                          <Link to="/fourthservice">Audit xidmətləri</Link>
+                          <Link to="/fifthservice">Hüquqi və Fiziki şəxslərin vergi öhdəlikləri üzrə məsləhət xidmətləri</Link>
+                          <Link to="/sixservice">Mühasibat uçotunun aparılması və tənzimlənməsi üzrə məsləhət xidmətləri</Link>
                         </div>
                       </div>
                     </div>
@@ -157,11 +158,12 @@ const Navbar = () => {
           <div className="tablet-dropdown">
             <Link to="/services">XİDMƏTLƏR</Link>
             <div className="tablet-dropdown-menu">
-              <Link to="/firstservice">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
-              <Link to="/secondservice">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
-              <Link to="/thirdservice">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
-              <Link to="/fourthservice">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
-              <Link to="/fifthservice">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
+              <Link to="/firstservice">İqtisadi hüquq məsləhətləri</Link>
+              <Link to="/secondservice">Kadr uçotu üzrə məsləhət xidmətləri</Link>
+              <Link to="/thirdservice">Gömrük əməliyyatları ilə əlaqədar məsləhət xidmətləri</Link>
+              <Link to="/fourthservice">Audit xidmətləri</Link>
+              <Link to="/fifthservice">Hüquqi və Fiziki şəxslərin vergi öhdəlikləri üzrə məsləhət xidmətləri</Link>
+              <Link to="/sixservice">Mühasibat uçotunun aparılması və tənzimlənməsi üzrə məsləhət xidmətləri</Link>
             </div>
           </div>
           
