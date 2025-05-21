@@ -47,6 +47,7 @@ const Xidmetlermain = () => {
   return (
     <div className="services-container">
       <h2 className="section-title">XİDMƏTLƏRİMİZ</h2>
+      <hr />
       <div className="services-grid">
         {services.map((service, index) => (
           <div className="service-card" key={index} data-aos="fade-up">

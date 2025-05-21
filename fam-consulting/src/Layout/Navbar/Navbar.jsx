@@ -132,7 +132,7 @@ const Navbar = () => {
                   </div>
                   <div className="col-xl-2"><div className="link"><Link to="/lisenziyalar">LİSENZİYALAR</Link></div></div>
                   <div className="col-xl-2"><div className="link"><Link to="/karyera">MÜŞTƏRİLƏR</Link></div></div>
-                  <div className="col-xl-2"><div className="link"><Link to="/elaqe">ƏLAQƏ</Link></div></div>
+                  <div className="col-xl-2"><div className="link"><Link to="/contact">ƏLAQƏ</Link></div></div>
                    </div>
               </div>
             </div>

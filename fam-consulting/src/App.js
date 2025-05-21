@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Rehberlik from "./Pages/Rehberlik";
 import Haqqimizda from "./Pages/Haqqimizda";
 import Xidmetler from "./Pages/Xidmetler";
+import Elaqe from "./Pages/Elaqe";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Haqqimizda />} />
             <Route path="/services" element={<Xidmetler />} />
+            <Route path="/contact" element={<Elaqe />} />
             <Route path="/rehberlik" element={<Rehberlik />} />
           </Routes>
         </Layout>
