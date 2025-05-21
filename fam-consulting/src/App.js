@@ -5,6 +5,7 @@ import Layout from "./Layout/Layout";
 import Home from "./Pages/Home";
 import Rehberlik from "./Pages/Rehberlik";
 import Haqqimizda from "./Pages/Haqqimizda";
+import Xidmetler from "./Pages/Xidmetler";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Haqqimizda />} />
+            <Route path="/services" element={<Xidmetler />} />
             <Route path="/rehberlik" element={<Rehberlik />} />
           </Routes>
         </Layout>
