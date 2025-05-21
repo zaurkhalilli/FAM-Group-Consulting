@@ -24,7 +24,7 @@ const Navbar = () => {
       <div id="navbar">
         <div className="navtop">
           <div className="navleft">
-            <p><FaMapMarkerAlt color="white" /> Nəriman Nərimanov rayonu, Əhməd Rəcəbli küç., 224, 4-cü mərtəbə</p>
+            <p><FaMapMarkerAlt color="white" /> Nəriman Nərimanov rayonu, Əhməd Rəcəbli küç., 226, 3-cü mərtəbə</p>
           </div>
           <div className="navright">
             <div className="list">
