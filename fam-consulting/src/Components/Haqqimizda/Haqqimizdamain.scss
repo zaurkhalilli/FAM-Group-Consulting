@@ -1,0 +1,40 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  background-color: #285da1;
+  .image-side {
+    flex: 1;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .text-side {
+    flex: 1;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.8s ease-in-out;
+    h2{
+        color: white;
+    }
+    &.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 16px;
+      text-align: justify;
+      letter-spacing: 1px;
+      font-weight: 640;
+      color: #ffffff;
+    }
+  }
+}

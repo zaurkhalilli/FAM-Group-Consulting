@@ -4,6 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 import Layout from "./Layout/Layout";
 import Home from "./Pages/Home";
 import Rehberlik from "./Pages/Rehberlik";
+import Haqqimizda from "./Pages/Haqqimizda";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<Haqqimizda />} />
             <Route path="/rehberlik" element={<Rehberlik />} />
           </Routes>
         </Layout>
