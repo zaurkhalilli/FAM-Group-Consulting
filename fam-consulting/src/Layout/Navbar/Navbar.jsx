@@ -124,9 +124,8 @@ const Navbar = () => {
                           <Link to="/firstservice">İqtisadi hüquq məsləhətləri</Link>
                           <Link to="/secondservice">Kadr uçotu üzrə məsləhət xidmətləri</Link>
                           <Link to="/thirdservice">Gömrük əməliyyatları ilə əlaqədar məsləhət xidmətləri</Link>
-                          <Link to="/fourthservice">Audit xidmətləri</Link>
-                          <Link to="/fifthservice">Hüquqi və Fiziki şəxslərin vergi öhdəlikləri üzrə məsləhət xidmətləri</Link>
-                          <Link to="/sixservice">Mühasibat uçotunun aparılması və tənzimlənməsi üzrə məsləhət xidmətləri</Link>
+                          <Link to="/fourthservice">Hüquqi və Fiziki şəxslərin vergi öhdəlikləri üzrə məsləhət xidmətləri</Link>
+                          <Link to="/fifthservice">Mühasibat uçotunun aparılması və tənzimlənməsi üzrə məsləhət xidmətləri</Link>
                         </div>
                       </div>
                     </div>
