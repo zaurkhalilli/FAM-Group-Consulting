@@ -13,7 +13,7 @@ const Haqqimizdamain = () => {
   return (
     <div className="about-container">
       <div className="image-side">
-        <img src='https://www.blogtyrant.com/wp-content/uploads/2011/02/best-about-us-pages.png' alt="FAM Group" />
+        <img src='https://www.standardconsultingint.org/wp-content/uploads/2022/04/Development-consultancy.jpeg' alt="FAM Group" />
       </div>
       <div className={`text-side ${showText ? 'show' : ''}`}>
         <h2>FAM Group Consulting şirkəti haqqında</h2>
@@ -24,5 +24,6 @@ const Haqqimizdamain = () => {
       </div>
     </div>
   );
+ 
 };
 export default Haqqimizdamain
