@@ -8,6 +8,7 @@ import Haqqimizda from "./Pages/Haqqimizda";
 import Xidmetler from "./Pages/Xidmetler";
 import Elaqe from "./Pages/Elaqe";
 import Etics from "./Pages/Etics";
+import Musteriler from "./Pages/Musteriler";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contact" element={<Elaqe />} />
             <Route path="/rehberlik" element={<Rehberlik />} />
             <Route path="/ethics" element={<Etics />} />
+            <Route path="/customers" element={<Musteriler />} />
           </Routes>
         </Layout>
       </BrowserRouter>
