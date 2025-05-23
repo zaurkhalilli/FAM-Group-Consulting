@@ -7,6 +7,7 @@ import Rehberlik from "./Pages/Rehberlik";
 import Haqqimizda from "./Pages/Haqqimizda";
 import Xidmetler from "./Pages/Xidmetler";
 import Elaqe from "./Pages/Elaqe";
+import Etics from "./Pages/Etics";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/services" element={<Xidmetler />} />
             <Route path="/contact" element={<Elaqe />} />
             <Route path="/rehberlik" element={<Rehberlik />} />
+            <Route path="/ethics" element={<Etics />} />
           </Routes>
         </Layout>
       </BrowserRouter>

@@ -1,0 +1,35 @@
+.about-section {
+  background-color: #285da1;
+  color: white;
+  padding: 4rem 0;
+
+  .about-text {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+
+    .about-text {
+      text-align: center;
+    }
+  }
+}
