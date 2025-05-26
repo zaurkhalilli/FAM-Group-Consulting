@@ -1,5 +1,7 @@
 import React from 'react';
 import './ConsultingSection.scss';
+import bgImage from './famphoto.png'; 
+
 const items = [
   {
     icon: '💼',
@@ -25,7 +27,10 @@ const items = [
 
 const ConsultingSection = () => {
   return (
-    <section className="consulting-section">
+    <section
+      className="consulting-section"
+      style={{ backgroundImage: `url(${bgImage})` }} 
+    >
       <div className="content-wrapper">
         {items.map((item, index) => (
           <div 

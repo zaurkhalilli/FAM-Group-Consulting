@@ -1,6 +1,5 @@
 .consulting-section {
   height: 120vh;
-  background-image: url('https://assets.kpmg.com/is/image/kpmgcloud/management-consulting-people-walking-towards-user:cq5dam-web-2732-1088?wid=2732&hei=1088');
   background-attachment: fixed; 
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +14,7 @@
 }
 
 .content-wrapper {
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -23,7 +22,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 3rem;
-  gap: 1.5rem;
+  gap: 1rem;
 
   &.right {
     flex-direction: row-reverse;
@@ -58,8 +57,8 @@
       font-size: 1.1rem;
       color: white;
       font-weight: 640;
+      max-width: 250px;
       line-height: 1.4;
-
     }
   }
 }
