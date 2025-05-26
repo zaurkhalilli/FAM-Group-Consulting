@@ -1,6 +1,5 @@
 import React from 'react';
 import './ConsultingSection.scss';
-
 const items = [
   {
     icon: '💼',

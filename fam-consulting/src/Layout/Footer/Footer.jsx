@@ -24,7 +24,9 @@ const Footer = () => {
                 - Gəncə Ofisi
                 <br />
                 Şah İsmayıl Xətai prospekti, 93.
+                <br />
                 Mob.: (+994 50) 278-71-88
+                <br />
                 Aura Park AVM, 4-cü mərtəbə,
                 Ofis 405.
             </p>

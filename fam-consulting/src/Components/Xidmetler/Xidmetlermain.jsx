@@ -9,32 +9,32 @@ const services = [
   {
     title: 'İqtisadi hüquq məsləhətləri',
     icon: <FaGavel />,
-    short: 'Biznes və hüquqla bağlı hüquqi məsləhətlər.',
+    short: 'Hüquqi və fiziki şəxslərə biznes hüququ ilə əlaqədar məsləhət xidmətləri',
     link: '/xidmetler/iqtisadi-huquq',
   },
   {
     title: 'Kadr uçotu üzrə məsləhət xidmətləri',
     icon: <FaUserTie />,
-    short: 'İnsan resursları və kadr uçotu üçün dəstək.',
+    short: 'Əmək müqaviləsi, əmək müqaviləsi tərəflərinin hüquqi öhdəlikləri, əmək müqaviləsi bildirişi, əməyin mühafizəsi və s. bu kimi əmək qanunvericiliyinə müvafiq olaraq məsləhət xidmətləri',
     link: '/xidmetler/kadr-ucotu',
   },
   {
     title: 'Gömrük əməliyyatları üzrə məsləhət',
     icon: <FaUniversity />,
-    short: 'İdxal-ixrac əməliyyatlarında hüquqi məsləhət.',
+    short: 'Xarici iqtisadi fəaliyyətlə əlaqədar (müqavilələr, müqavilələrin qeydiyyatı, idxal,ixrac və s,) bütün xidmətlər',
     link: '/xidmetler/gomruk',
   },
 
   {
     title: 'Vergi öhdəlikləri üzrə məsləhət',
     icon: <FaFileAlt />,
-    short: 'Fiziki və hüquqi şəxslər üçün vergi məsləhətləri.',
+    short: 'Vergi öhdəliklərinin , bəyannamə mükəlləfiyyətlərinin, vergi borclarının müəyyənləşdirilməsi',
     link: '/xidmetler/vergi',
   },
   {
     title: 'Mühasibat uçotu və tənzimlənməsi',
     icon: <FaCalculator />,
-    short: 'Uçot sisteminin qurulması və idarə olunması.',
+    short: 'Müəssisələrdə uçot siyasətinin hazırlanması, mühasibat uçotu haqqında Azərbaycan Respublikasının qanununa və BMHS-na əsasən uçotun təşkili üzrə xidmətlər',
     link: '/xidmetler/muhasibat',
   },
 ];
@@ -54,7 +54,6 @@ const Xidmetlermain = () => {
             <div className="icon">{service.icon}</div>
             <h3>{service.title}</h3>
             <p>{service.short}</p>
-            <a href={service.link}>Ətraflı →</a>
           </div>
         ))}
       </div>

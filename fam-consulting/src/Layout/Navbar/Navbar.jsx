@@ -118,16 +118,8 @@ const Navbar = () => {
                   </div>
                   <div className="col-xl-2">
                     <div className="link">
-                      <div className="nav-drop nav-drop2">
                         <Link to="/services">XİDMƏTLƏR</Link>
-                        <div className="nav__dropdown">
-                          <Link to="/firstservice">İqtisadi hüquq məsləhətləri</Link>
-                          <Link to="/secondservice">Kadr uçotu üzrə məsləhət xidmətləri</Link>
-                          <Link to="/thirdservice">Gömrük əməliyyatları ilə əlaqədar məsləhət xidmətləri</Link>
-                          <Link to="/fourthservice">Hüquqi və Fiziki şəxslərin vergi öhdəlikləri üzrə məsləhət xidmətləri</Link>
-                          <Link to="/fifthservice">Mühasibat uçotunun aparılması və tənzimlənməsi üzrə məsləhət xidmətləri</Link>
-                        </div>
-                      </div>
+                     
                     </div>
                   </div>
                   <div className="col-xl-2"><div className="link"><Link to="/lisenziyalar">LİSENZİYALAR</Link></div></div>
