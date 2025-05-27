@@ -9,6 +9,7 @@ import Xidmetler from "./Pages/Xidmetler";
 import Elaqe from "./Pages/Elaqe";
 import Etics from "./Pages/Etics";
 import Musteriler from "./Pages/Musteriler";
+import Karyera from "./Pages/Karyera";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
             <Route path="/rehberlik" element={<Rehberlik />} />
             <Route path="/ethics" element={<Etics />} />
             <Route path="/customers" element={<Musteriler />} />
+             <Route path="/career" element={<Karyera />} />
+           
           </Routes>
         </Layout>
       </BrowserRouter>
