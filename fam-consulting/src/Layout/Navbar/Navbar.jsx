@@ -83,7 +83,7 @@ const Navbar = () => {
                  </div>
                  <div className="inforight">
                     <h5>Gəncə Ofisi</h5>
-                         <p>    Şah İsmayıl Xətai prospekti, 93.
+                         <p>   Şah İsmayıl Xətai prospekti, 93.
                         <br />
                         Mob.: (+994 50) 278-71-88
                         <br />
@@ -122,7 +122,7 @@ const Navbar = () => {
                      
                     </div>
                   </div>
-                  <div className="col-xl-2"><div className="link"><Link to="/lisenziyalar">LİSENZİYALAR</Link></div></div>
+                  <div className="col-xl-2"><div className="link"><Link to="/career">KARYERA</Link></div></div>
                   <div className="col-xl-2"><div className="link"><Link to="/customers">MÜŞTƏRİLƏR</Link></div></div>
                   <div className="col-xl-2"><div className="link"><Link to="/contact">ƏLAQƏ</Link></div></div>
                    </div>
@@ -158,9 +158,9 @@ const Navbar = () => {
             </div>
           </div>
           
-          <Link to="/lisenziyalar">LİSENZİYALAR</Link>
-          <Link to="/elaqe">ƏLAQƏ</Link>
-          <Link to="/karyera">KARYERA</Link>
+         <Link to="/career">KARYERA</Link>
+         <Link to="/customers">MÜŞTƏRİLƏR</Link>
+         <Link to="/contact">ƏLAQƏ</Link>
         </div>
       </div>
 
@@ -177,11 +177,11 @@ const Navbar = () => {
             <Link to="/">ANA SƏHİFƏ</Link>
             <Link to="/about">HAQQIMIZDA</Link>
             <Link to="/rehberlik">RƏHBƏRLİK</Link>
-            <Link to="/lisenziyalar">LİSENZİYALAR</Link>
             <Link to="/ethics">ETİK DAVRANIŞ</Link>
             <Link to="/services">XİDMƏTLƏR</Link>
-            <Link to="/elaqe">ƏLAQƏ</Link>
-            <Link to="/karyera">KARYERA</Link>
+            <Link to="/career">KARYERA</Link>
+            <Link to="/customers">MÜŞTƏRİLƏR</Link>
+            <Link to="/contact">ƏLAQƏ</Link>
           </div>
         )}
       </div>
