@@ -37,14 +37,14 @@ const Navbar = () => {
         </div>
         <div className="container">
           <div className="row g-1">
-            <div className="col-xl-3">
+            <div className="col-xl-2">
               <div className="logo">
                 <Link to="/">
                   <img src="https://www.famgroupconsulting.az/assets/images/logo.png" alt="FAM-Group-Consulting-Logo" />
                 </Link>
               </div>
             </div>
-             <div className="col-xl-3">
+             <div className="col-xl-5">
                 <div className="navinfo">
                     <div className="infoleft">
                         <BsClock size={40} color='#285da1' /> 
@@ -57,8 +57,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-             <div className="col-xl-3">
-              <div className="logo">
+             <div className="col-xl-5">
                <div className="navinfo">
                  <div className="infoleft">
                       <MdOutlinePhoneInTalk size={35} color='#285da1'/>
@@ -73,27 +72,8 @@ const Navbar = () => {
                         </p>
                     </div>
                 </div>
-              </div>
             </div>
-             <div className="col-xl-3">
-              <div className="logo">
-               <div className="navinfo">
-                 <div className="infoleft">
-                    <CiLocationOn size={40} color='#285da1'/>
-                 </div>
-                 <div className="inforight">
-                    <h5>Gəncə Ofisi</h5>
-                         <p>   Şah İsmayıl Xətai prospekti, 93.
-                        <br />
-                        Mob.: (+994 50) 278-71-88
-                        <br />
-                        Aura Park AVM, 4-cü mərtəbə,
-                        <br /> Ofis 405.
-                        </p>
-                </div>
-                    </div>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div className="container">

@@ -1,5 +1,5 @@
 .consulting-section {
-  height: 120vh;
+  height: 150vh;
   background-attachment: fixed; 
   background-position: center;
   background-repeat: no-repeat;
@@ -11,8 +11,13 @@
   box-sizing: border-box;
   color: #fff;
   text-shadow: 0 0 5px rgba(0,0,0,0.7);
+ 
 }
-
+@media (max-width: 1024px) {
+  .consulting-section {
+    height: 325vh;
+  }
+}
 .content-wrapper {
   max-width: 1200px;
   width: 100%;

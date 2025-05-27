@@ -119,15 +119,18 @@
       }
     }
   }
-
-  .logo {
+  .col-xl-2{
+    margin: 15px auto;
+    padding-left: 10px;
+    .logo {
     a {
       img {
-        text-align: left;
         width: 100%;
       }
     }
   }
+  }
+  
 
   .link {
     text-align: center;
